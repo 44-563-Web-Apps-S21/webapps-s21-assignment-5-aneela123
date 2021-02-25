@@ -8,6 +8,14 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <style>
+    .cards{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+
+    }
+</style>
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -194,16 +202,17 @@ the letters also breaks.(since the col-sm-2 div class has 576px).</p>
     </div>
     <button type="submit" class="btn btn-primary btn-lg">Submit</button>
   </form>
-  <div class="card" style="width: 18rem;">
+  <div class="cards">
+  <div class="card" style="width: 18rem; margin: 2px;">
     <img class="card-img-top" src="images/kiwi.jpg" alt="Card image cap">
-    <div class="card-body">
+     <div class="card-body">
       <h5 class="card-title">Kiwi</h5>
       <p class="card-text"> the fuzzy kiwifruit, is a fruiting vine native to southern China, 
           the fruit of which has been declared the national fruit of that country.</p>
       <a href="https://en.wikipedia.org/wiki/Actinidia_deliciosa" class="btn btn-primary">Kiwi Details</a>
     </div>
   </div>
- <div class="card" style="width: 18rem;">
+ <div class="card" style="width: 18rem; margin: 2px">
     <img class="card-img-top" src="images/abroma.jpg" alt="Card image cap">
     <div class="card-body">
       <h5 class="card-title">Abroma</h5>
@@ -222,7 +231,7 @@ the letters also breaks.(since the col-sm-2 div class has 576px).</p>
       <a href="https://en.wikipedia.org/wiki/Neomarica_northiana" class="btn btn-primary">Neomarica Details</a>
     </div>
   </div>
-  
+</div>  
 
 </body>
 </html>
